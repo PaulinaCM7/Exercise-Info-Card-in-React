@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+#root{
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 317px;
+    height: 780px;
+    background-color: #1A1B21;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+    text-align: center;
+}
+
+.info--name, .info--website {
+    margin: 10px;
+}
+
+.info--name {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.info--title {
+    margin-top: 0px;
+    font-weight: 400;
+    color: #F3BF99;
+    font-size: 13px;
+}
+
+.info--website {
+    font-weight: 300;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 16px;
+}
+
+.info--buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.info--buttons > button{
+    width: 115px;
+    height: 34px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+}
+
+.info--buttons > button >i{
+    padding-right: 10px;
+}
+
+.info--email {
+    padding-left: 24px;
+}
+
+.info--linkedin {
+    margin-left: 10px;
+    background-color: #5093E2;
+    color: white;
+    border-color: #5093E2;
+    border-radius: 3px;
+    padding-left: 17px;
+}
+
+.about, .interests {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about {
+    margin-top: 20px;
+}
+.interests {
+    margin-top: 10px;
+    padding-bottom: 22px;
+}
+
+.about--title, .interests--title {
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+.about--text, .interests--text{
+    color: white;
+    font-weight: 200;
+    font-size: 10px;
+    margin-top: 0px;
+    line-height: 15px;
+    letter-spacing: 0.39px;
+}
+
+.footer {
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.footer > i{
+    font-size: 25px;
+    color: #918E9B;
+    margin: 10px;
+}
